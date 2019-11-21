@@ -3,6 +3,8 @@ body {
 }
 
 #nav-bar {
+  position: relative;
+  bottom: 150px;
   display: flex;
   justify-content: center;
   background-color: grey;
