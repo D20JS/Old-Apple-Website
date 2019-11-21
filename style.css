@@ -1,3 +1,19 @@
 body {
   font-family: "Open Sans Condensed", sans-serif;
 }
+
+#nav-bar {
+  background-color: grey;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  max-width: 800px;
+}
+
+footer {
+  background-color: aqua;
+}
