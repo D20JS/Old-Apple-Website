@@ -8,12 +8,26 @@ body {
 
 article {
   display: flex;
+  position: relative;
+  left: 350px;
   flex-direction: column;
   justify-content: center;
   background-color: black;
-  max-width: 800px;
+  max-width: 1200px;
+  height: 800px;
 }
 
 footer {
+  display: flex;
+  position: relative;
+  left: 350px;
   background-color: aqua;
+  max-width: 1200px;
+}
+
+.footer1,
+.footer2,
+.footer3,
+.footer4 {
+  height: 165px;
 }
