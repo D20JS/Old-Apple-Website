@@ -25,9 +25,16 @@ article {
   flex-direction: column;
   justify-content: center;
   background-image: url(img/main-img.jpg);
-  background-position: center;
+  background-size: cover;
   max-width: 1200px;
   height: 800px;
+}
+
+.main,
+.second,
+.third {
+  position: relative;
+  bottom: 100px;
 }
 
 footer {
