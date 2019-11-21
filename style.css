@@ -3,7 +3,19 @@ body {
 }
 
 #nav-bar {
+  display: flex;
+  justify-content: center;
   background-color: grey;
+}
+
+button {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(206, 197, 197),
+    rgb(90, 89, 89)
+  );
+  width: 100px;
+  height: 30px;
 }
 
 article {
@@ -12,7 +24,8 @@ article {
   left: 350px;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-image: url(img/main-img.jpg);
+  background-position: center;
   max-width: 1200px;
   height: 800px;
 }
